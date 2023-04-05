@@ -277,7 +277,10 @@ public class SampleControler {
 	}
 
 	@FXML
-	public void removeButtonListener() {
+	public void removeButtonListener(ActionEvent event) {
+          int index = toyRemoveListView.Selectionmodel().getSelectedModel.gitSelectedIndex();
+          String sn = searchToy.get(index).getsn();
+          For Toy (items: toys){
 
 	}
 
